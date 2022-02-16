@@ -1,0 +1,127 @@
+body{
+    margin:0px;
+    background-color: #D9AFD9;
+    background-image: radial-gradient( circle 588px at 31.7% 40.2%,  rgba(225,200,239,1) 21.4%, rgba(163,225,233,1) 57.1% );
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.nav{
+    background-color: rgb(8, 71, 122);
+    text-align: center;
+}
+.moviemania{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 2.5rem;
+    color: #ffffff; 
+    font-family: 'Raleway',sans-serif;
+    font-weight: 800;  
+    margin: 0;
+    text-transform:uppercase;
+}
+.heading{
+    text-align: left;
+    color: rgb(8, 71, 122); 
+    font-family: 'Open Sans', sans-serif; 
+    margin-left:4rem;
+    font-size: 1rem; 
+    font-weight: 300; 
+    line-height: 32px;    
+}
+.image{
+    width:7rem;
+    float:left;
+    border-radius: 1rem;
+    margin:0.5rem 1.5rem 0.5rem 1rem;
+    
+}
+.box{
+    border: solid; 
+    border-color: rgb(8, 71, 122);
+    border-radius:1rem;
+    width:90%;
+    height:8rem;
+    display: flex;
+    position: relative; 
+    margin:auto;
+}
+.name{
+    margin-bottom:0.25rem;
+    font-size: 1.5rem;
+}
+.subname{
+    margin:0px;
+    font-weight: 50;
+    color: rgb(29, 29, 29);
+}
+.pink{
+    margin-top: 1rem;
+    background-color: lightpink;
+    border-radius: 1rem;
+    padding:0.125rem 1rem 0.125rem 1rem;
+    float: left;
+}
+.blue{
+    margin-top:1rem;
+    margin-left: 0.5rem;
+    background-color: lightskyblue;
+    border-radius: 1rem;
+    padding:0.125rem 1rem 0.125rem 1rem;
+    float: left;  
+}
+.icon{
+    display:flex;
+    align-items: center;
+    position:absolute;
+    right:2%;
+    bottom: 2rem;
+}
+
+@media(max-width:768px){
+    .heading{
+        display:none;
+    }
+    .image{
+        width:60%;
+        margin-top: 5%;
+        border-radius:0.5rem;
+        margin-left: 20%;
+        overflow: hidden;
+    }
+    .box{
+        width: 80%;
+        height: 60%;
+        display: flex;
+        flex-direction: column;
+        margin-top: 2rem;
+        align-self: center;
+    }
+    .name{
+        font-size: 1rem;
+        padding-left: 5%;
+    }
+    .subname{
+        padding-left: 5%;
+    }
+    .likeicon{
+        width:1.5rem;
+        size: 1.5rem;    
+    }
+    .likes{
+        font-size: 1rem;
+        padding-left: 0rem;   
+    }
+    .subname{
+        padding-left: 5%;
+    }
+    .pink{
+        padding-left:5%;
+    }
+    .blue{
+        padding-left:5%;
+    }
+    .icon{
+        width:20%;
+    }
+
+
